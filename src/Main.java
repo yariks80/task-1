@@ -8,54 +8,54 @@ public class Main {
     public static void main(String[] args) {
 
         //1
-//        System.out.println("Введите имя");
-//        Scanner scanner = new Scanner(System.in);
-//        String name = scanner.nextLine();
-//        System.out.println("Привет," + name);
+        System.out.println("Введите имя");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        System.out.println("Привет," + name);
 
         //2
-//        for (int i = args.length-1; i >=0 ; i--) {
-//            System.out.println(args[i]);
-//        }
+       for (int i = args.length-1; i >=0 ; i--) {
+           System.out.println(args[i]);
+       }
 
         //3 с переносом
-//        System.out.println("Введите число");
-//        Random rnd = new Random();
-//        Scanner number = new Scanner(System.in);
-//        int quan = number.nextInt();
-//        for (int i = 0; i < quan; i++) {
-//            int random = rnd.nextInt(100);
-//            System.out.println(random);
-//        }
+       System.out.println("Введите число");
+       Random rnd = new Random();
+       Scanner number = new Scanner(System.in);
+       int quan = number.nextInt();
+       for (int i = 0; i < quan; i++) {
+           int random = rnd.nextInt(100);
+           System.out.println(random);
+       }
 
         //3 без переноса
-//        System.out.println("Введите число");
-//        Random rnd1 = new Random();
-//        Scanner number1 = new Scanner(System.in);
-//        int quan1 = number1.nextInt();
-//        for (int i = 0; i < quan1; i++) {
-//            int random = rnd1.nextInt(100);
-//            System.out.print(random + " ");
-//        }
+       System.out.println("Введите число");
+       Random rnd1 = new Random();
+       Scanner number1 = new Scanner(System.in);
+       int quan1 = number1.nextInt();
+       for (int i = 0; i < quan1; i++) {
+           int random = rnd1.nextInt(100);
+           System.out.print(random + " ");
+       }
 
         //4
-//        System.out.println("Введите пароль");
-//        Scanner scan = new Scanner(System.in);
-//        String password = scan.nextLine();
-//        String sample = "пароль";
-//        if (password.equals(sample)){
-//            System.out.println("Пароли совпадают");
-//        }
-//        else {
-//            System.out.println("Пароли не совпадают");
-//        }
+       System.out.println("Введите пароль");
+       Scanner scan = new Scanner(System.in);
+       String password = scan.nextLine();
+       String sample = "пароль";
+       if (password.equals(sample)){
+           System.out.println("Пароли совпадают");
+       }
+       else {
+           System.out.println("Пароли не совпадают");
+       }
 
         //5
-//        int sum = 0;
-//        for (int i = 0; i < args.length ; i++) {
-//            sum += Integer.parseInt(args[i]);
-//      }
-//        System.out.println(sum);
+       int sum = 0;
+       for (int i = 0; i < args.length ; i++) {
+           sum += Integer.parseInt(args[i]);
+     }
+       System.out.println(sum);
 
         //6
         Scanner newNumb = new Scanner(System.in);
